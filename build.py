@@ -113,8 +113,8 @@ def subnav(depth, cur):
 
 def page(title, body, depth, section, head_extra="", scripts=""):
     up = "../" * depth
-    banner = ('<div class="modebar">Planning version for the leaders. Switch <code>mode</code> in '
-              '<code>data/trip.json</code> to “participants” for the caravan version.</div>') if PLANNING else ""
+    banner = ('<div class="modebar">Planning version for the caravan leaders; not for participants yet. '
+              'Send changes to Steve.</div>') if PLANNING else ""
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -398,7 +398,7 @@ def campgrounds_page():
                     f'<small>{short(s["arrive"])}–{short(s["depart"])}, {plural(s["nights"], "night")}</small></h2>'
                     f'<div class="cggrid">{"".join(rows)}</div></section>')
     lede = ("Every candidate, first call first. Nothing is booked yet. Status runs candidate → called → quoted → held → booked; "
-            "change it in <code>data/campgrounds.json</code>. Group size to plan for: "
+            "Group size to plan for: "
             f"{TRIP.get('rig_cap', 26)} rigs, trailers up to about 26 ft and 30 A. (I) = our estimate."
             if PLANNING else "Where we park at each base.")
     body = f'<h1>Campgrounds</h1><p class="lede">{lede}</p>{"".join(secs)}'
@@ -505,7 +505,7 @@ def tasks_page():
     webcal = "webcal://" + ics_url.split("://", 1)[-1]
     first = max(TODAY.replace(day=1), dt.date(2026, 10, 1))
     body = f"""<h1>Tasks &amp; calendar</h1>{subnav(2, 'planning/tasks/')}
-<p class="lede">Edit <code>data/tasks.json</code> (or ask Claudia), then run <code>./deploy.sh</code>. Dates marked “estimate” are our best guess and need confirming.</p>
+<p class="lede">Dates marked “estimate” are our best guess and need confirming. Send updates to Steve.</p>
 <p class="subscribe"><a class="btn" href="{e(webcal)}">Subscribe in Calendar</a> <a href="springtime-kentucky-2028.ics" download>Download .ics</a>
 <span class="caption">Subscribing keeps Apple or Google Calendar in step with this page after each deploy.</span></p>
 <div class="tabs" role="tablist"><button role="tab" data-v="cal" aria-selected="true">Calendar</button><button role="tab" data-v="list" aria-selected="false">List</button></div>
@@ -616,7 +616,7 @@ def ideas_page():
         secs.append(f'<section><h2>{e(STOPS[s["id"]]["name"])} <small>{short(s["arrive"])}–{short(s["depart"])}</small></h2>'
                     f'<ul class="ideas">{lis}</ul></section>')
     body = (f'<h1>Ideas</h1>{subnav(2, "planning/ideas/")}<p class="lede">Activities for each base. Status runs idea → '
-            'shortlist → scheduled; “2012 did” marks repeats from the 2012 caravan. Edit <code>data/ideas.json</code>.</p>'
+            'shortlist → scheduled; “2012 did” marks repeats from the 2012 caravan.</p>'
             + "".join(secs))
     return page("Ideas", body, 2, "planning/")
 
@@ -646,7 +646,7 @@ def budget_page():
     bench = "".join(f'<tr><td>{e(b["label"])}</td><td class="num">${b["amount"]:,}</td>'
                     f'<td><a href="{e(b["source"])}" rel="noopener">listing</a></td></tr>' for b in BUDGET.get("benchmarks", []))
     body = f"""<h1>Budget</h1>{subnav(2, 'planning/budget/')}
-<p class="lede">Per rig, two people. So far we know {known} of {known + unknown} costs (${total:,} per rig); the rest need quotes. Edit <code>data/budget.json</code>.</p>
+<p class="lede">Per rig, two people. So far we know {known} of {known + unknown} costs (${total:,} per rig); the rest need quotes.</p>
 <h2>What recent runs charged</h2>
 <table class="tasks narrow"><tbody>{bench}</tbody></table>
 <p class="caption">The kitty covers camping, group meals and most tours. It's run at cost; anything unspent is refunded.</p>
@@ -661,7 +661,7 @@ def decisions_page():
     items = "".join(f"""<li class="{e(d['status'])}"><h3>{e(d['q'])}</h3><p class="who">{e(d['who'])}, {e(d['status'])}</p>
 {f"<p>{e(d['note'])}</p>" if d['note'] else ''}</li>""" for d in DECS)
     body = (f'<h1>Decisions</h1>{subnav(2, "planning/decisions/")}<p class="lede">What’s settled and what’s still open. '
-            f'Edit <code>data/decisions.json</code>.</p><ul class="decisions">{items}</ul>')
+            f'</p><ul class="decisions">{items}</ul>')
     return page("Decisions", body, 2, "planning/")
 
 
