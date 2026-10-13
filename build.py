@@ -70,7 +70,7 @@ def page(title, body, depth, head_extra="", scripts=""):
 </head><body>
 <header class="top"><a class="brand" href="{up}">Springtime in Kentucky <span>2028</span></a><nav>{links}</nav></header>
 <main>{body}</main>
-<footer>Airstream caravan led by {e(TRIP["leaders"])}. Towing times are estimates (car time + 20%). Campgrounds are candidates until booked.</footer>
+<footer>Airstream Club International caravan led by {e(TRIP["leaders"])}. Towing times are estimates (car time + 20%). Campgrounds are candidates until booked.<br>Airstream is a registered trademark of Airstream, Inc. All rights reserved.</footer>
 {scripts}</body></html>"""
 
 
@@ -128,7 +128,7 @@ def index_page():
 <section class="hero">
   <p class="dates">{START.strftime("%B %-d")} – {END.strftime("%B %-d")}, 2028 · farewell {FAREWELL.strftime("%B %-d")}</p>
   <h1>Three weeks of Kentucky in spring, with Derby Day on day {derby_day}.</h1>
-  <p class="lede">An Airstream caravan led by {e(TRIP["leaders"])}. Bluegrass, bourbon, horse country and the hills — the route is still taking shape.</p>
+  <p class="lede">An Airstream Club International caravan led by {e(TRIP["leaders"])}. Bluegrass, bourbon, horse country and the hills — the route is still taking shape.</p>
   <p class="countdown" id="countdown"></p>
 </section>
 <section class="compare">

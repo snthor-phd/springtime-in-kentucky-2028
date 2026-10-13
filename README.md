@@ -1,6 +1,6 @@
 # Springtime in Kentucky 2028
 
-Planning site for a spring 2028 Airstream caravan through Kentucky, led by Colleen and Steve Thorsen.
+Planning site for a spring 2028 Airstream Club International caravan through Kentucky, led by Colleen and Steve Thorsen.
 
 - **Caravan:** Sat April 29 – Sat May 20, 2028 (22 nights)
 - **Kentucky Derby:** Sat May 6, 2028, day 8 of the trip
@@ -21,3 +21,5 @@ Then run `./deploy.sh "message"`. It rebuilds and pushes. `python3 build.py` alo
 Overview (calendar strip with Derby Day), Itinerary, Route map (KML/GPX downloads once stops exist), Campgrounds, Decisions.
 
 Not indexed by search engines (`robots.txt` + `noindex`); share the link directly. Leaders are the only names on the site.
+
+Airstream is a registered trademark of Airstream, Inc. All rights reserved.
