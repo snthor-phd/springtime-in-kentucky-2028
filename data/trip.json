@@ -1,13 +1,54 @@
 {
-"title": "Springtime in Kentucky 2028",
-"start": "2028-04-29",
-"end": "2028-05-20",
-"farewell": "2028-05-21",
-"leaders": "Colleen and Steve Thorsen",
-"fixed": [
-  {"date": "2028-05-06", "label": "Kentucky Derby", "place": "Churchill Downs, Louisville", "kind": "derby"},
-  {"date": "2028-05-21", "label": "Farewell", "place": "To be set", "kind": "farewell"}
-],
-"stops": [],
-"_stops_help": "Add stops in order as [stop_id, nights], e.g. [\"lexington\", 7]. Each stop_id must exist in stops.json. Nights run back to back from the start date."
+ "title": "Springtime in Kentucky 2028",
+ "mode": "planning",
+ "_mode_help": "\"planning\" builds the full site with the Planning section. \"participants\" hides tasks, booking status, budget, ideas, decisions and campgrounds that weren't chosen.",
+ "start": "2028-04-29",
+ "end": "2028-05-20",
+ "farewell": "2028-05-21",
+ "leaders": "Colleen and Steve Thorsen",
+ "rig_cap": 26,
+ "fixed": [
+  {
+   "date": "2028-05-03",
+   "label": "Pre-Derby race day",
+   "place": "Churchill Downs, Louisville",
+   "kind": "race"
+  },
+  {
+   "date": "2028-05-06",
+   "label": "Kentucky Derby at Keeneland",
+   "place": "Keeneland Derby Day, Lexington (watch party)",
+   "kind": "derby"
+  },
+  {
+   "date": "2028-05-21",
+   "label": "Farewell",
+   "place": "Berea area, venue to be set",
+   "kind": "farewell"
+  }
+ ],
+ "stops": [
+  [
+   "bowlinggreen",
+   3
+  ],
+  [
+   "louisville",
+   2
+  ],
+  [
+   "frankfort",
+   3
+  ],
+  [
+   "lexington",
+   6
+  ],
+  [
+   "berea",
+   8
+  ]
+ ],
+ "_stops_help": "Stop order as [stop_id, nights]. Nights run back to back from the start date. Each stop_id must exist in stops.json.",
+ "site_url": "https://snthor-phd.github.io/springtime-in-kentucky-2028/"
 }

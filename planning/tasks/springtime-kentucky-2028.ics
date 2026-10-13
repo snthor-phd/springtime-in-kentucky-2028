@@ -1,0 +1,398 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//snthor-phd//springtime-kentucky-2028//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Springtime in Kentucky 2028
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:t01@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:KY28: ✓ Build the planning site
+DESCRIPTION:task · Leaders · done\nhttps://snthor-phd.github.io/springti
+ me-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t02@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:KY28: ✓ Verify the 2012 book's campgrounds and contacts
+DESCRIPTION:task · Leaders · done\nSee Contacts and Campgrounds pages.\n
+ https://snthor-phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t03@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:KY28: Check ACI members area: did the 2024/2025 caravans do a Chur
+ chill Downs race day?
+DESCRIPTION:task · Steve · todo\nLook in the Louisville days of their dr
+ iver's manuals.\nhttps://snthor-phd.github.io/springtime-in-kentucky-2028
+ /planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t04@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:KY28: Talk to the ACI Caravan Committee chair about leading Spring
+ time in Kentucky in 2028
+DESCRIPTION:task · Steve · todo\nIt ran as N-2023-Y\, N-2024-Y and N-202
+ 5-Y under other leaders. National caravans need Committee authorization.\
+ nhttps://snthor-phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t05@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:KY28: Confirm caravan-leader training is current (within 5 years o
+ f the caravan)
+DESCRIPTION:task · Leaders · todo\nPer the ACI Caravan Handbook (2021).\
+ nhttps://snthor-phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t06@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:KY28: Call Bowling Green KOA for a 26-rig quote\, Apr 29-May 2\, 2
+ 028
+DESCRIPTION:task · Leaders · todo\n(270) 843-1919\nhttps://snthor-phd.gi
+ thub.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t07@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:KY28: Call Louisville South KOA for a 26-rig quote and Derby-week 
+ terms\, May 2-4
+DESCRIPTION:task · Leaders · todo\n(502) 543-2041. Get Derby rates and m
+ inimums in writing.\nhttps://snthor-phd.github.io/springtime-in-kentucky-
+ 2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t08@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:KY28: Call Elkhorn Creek RV Park for a 26-rig quote\, May 4-7
+DESCRIPTION:task · Leaders · todo\n(502) 695-9154. Ask about flood plans
+ .\nhttps://snthor-phd.github.io/springtime-in-kentucky-2028/planning/task
+ s/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t09@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:KY28: Call Kentucky Horse Park group line\, May 7-13
+DESCRIPTION:task · Leaders · todo\n(859) 259-4257 or (800) 370-6416. Ask
+  the group lead time.\nhttps://snthor-phd.github.io/springtime-in-kentuck
+ y-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t10@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:KY28: Call Renfro Valley KOA for a 26-rig quote\, May 13-21\, plus
+  the pavilion for the farewell
+DESCRIPTION:task · Leaders · todo\n(606) 256-2474\nhttps://snthor-phd.gi
+ thub.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t11@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:KY28: Draft the kitty budget
+DESCRIPTION:task · Leaders · todo\nStart from the Budget page.\nhttps://
+ snthor-phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t12@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:KY28: Send the Caravan Data Sheet (Startup Kit #5) to the Caravan 
+ chair and coordinator
+DESCRIPTION:task · Steve · todo · estimated date\nAfter approval the co
+ ordinator posts the caravan on the club site. Date is our estimate.\nhttp
+ s://snthor-phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t13@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:KY28: Blue Beret listing: two-sentence description
+DESCRIPTION:task · Leaders · todo · estimated date\nDue 45 days before 
+ the issue it runs in.\nhttps://snthor-phd.github.io/springtime-in-kentuck
+ y-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t14@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:KY28: Open the caravan bank account (U.S. Bank\, Jackson Center)
+DESCRIPTION:task · Leaders · todo · estimated date\nAdd a second signer
+ \, per the handbook.\nhttps://snthor-phd.github.io/springtime-in-kentucky
+ -2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t15@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:KY28: Kentucky Horse Park: standard bookings open for May 7\, 2028
+DESCRIPTION:window · Leaders · todo · estimated date\nStandard bookings
+  open 1 year ahead\; group lead time unknown.\nhttps://snthor-phd.github.
+ io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t16@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:KY28: Registration opens\; deposits due
+DESCRIPTION:milestone · Leaders · todo · estimated date\nModeled on 202
+ 5 ($300 deposit).\nhttps://snthor-phd.github.io/springtime-in-kentucky-20
+ 28/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t17@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:KY28: First kitty payment due
+DESCRIPTION:milestone · Leaders · todo · estimated date\n2025 used Sep 
+ 15 and Jan 15.\nhttps://snthor-phd.github.io/springtime-in-kentucky-2028/
+ planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t18@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:KY28: Book the farewell venue
+DESCRIPTION:task · Leaders · todo\nRenfro Valley KOA pavilion\, Fort Boo
+ nesborough hall (seats 150) or Boone Tavern.\nhttps://snthor-phd.github.i
+ o/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t19@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271202
+SUMMARY:KY28: Check the 2028 Renfro Valley show schedule for May 13-21
+DESCRIPTION:task · Leaders · todo\nhttps://snthor-phd.github.io/springti
+ me-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t20@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271202
+SUMMARY:KY28: Find when Recreation.gov opens 2028 Mammoth Cave tour dates
+DESCRIPTION:task · Leaders · todo · estimated date\nhttps://snthor-phd.
+ github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t21@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280115
+DTEND;VALUE=DATE:20280116
+SUMMARY:KY28: Second kitty payment due
+DESCRIPTION:milestone · Leaders · todo · estimated date\nhttps://snthor
+ -phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t22@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280115
+DTEND;VALUE=DATE:20280116
+SUMMARY:KY28: Email Buffalo Trace for a ~50-person Trace Tour (four groups
+  of 12-13)
+DESCRIPTION:task · Leaders · todo\nreservations@buffalotrace.com\nhttps:
+ //snthor-phd.github.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t23@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280131
+DTEND;VALUE=DATE:20280201
+SUMMARY:KY28: Buy Churchill Downs tickets for Wed May 3
+DESCRIPTION:task · Leaders · todo · estimated date\nDerby-week tickets 
+ went on sale in January in 2025.\nhttps://snthor-phd.github.io/springtime
+ -in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t24@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280215
+DTEND;VALUE=DATE:20280216
+SUMMARY:KY28: Buy Keeneland Derby Day tickets
+DESCRIPTION:task · Leaders · todo · estimated date\n2026: GA $10\, Eque
+ strian Room $40.\nhttps://snthor-phd.github.io/springtime-in-kentucky-202
+ 8/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t25@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280215
+DTEND;VALUE=DATE:20280216
+SUMMARY:KY28: Book horse-farm tours through Horse Country
+DESCRIPTION:task · Leaders · todo\nhttps://snthor-phd.github.io/springti
+ me-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t26@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:KY28: Driver's manual: first draft
+DESCRIPTION:task · Leaders · todo\nItinerary\, directions\, GAM schedule
+ \, bios\, budget\, critique sheet.\nhttps://snthor-phd.github.io/springti
+ me-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t27@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280308
+DTEND;VALUE=DATE:20280309
+SUMMARY:KY28: Buffalo Trace releases early-May dates online
+DESCRIPTION:window · Leaders · todo · estimated date\nDates open 8 week
+ s ahead\, Wednesdays at 10 a.m. ET.\nhttps://snthor-phd.github.io/springt
+ ime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t28@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280415
+DTEND;VALUE=DATE:20280416
+SUMMARY:KY28: Collect sealed medical-emergency forms
+DESCRIPTION:task · Leaders · todo\nhttps://snthor-phd.github.io/springti
+ me-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t29@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280429
+DTEND;VALUE=DATE:20280430
+SUMMARY:KY28: Caravan rolls in: Bowling Green
+DESCRIPTION:milestone · Leaders · todo\nhttps://snthor-phd.github.io/spr
+ ingtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t30@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280506
+DTEND;VALUE=DATE:20280507
+SUMMARY:KY28: Kentucky Derby (watch at Keeneland)
+DESCRIPTION:milestone · Leaders · todo\nhttps://snthor-phd.github.io/spr
+ ingtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t31@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280521
+DTEND;VALUE=DATE:20280522
+SUMMARY:KY28: Farewell
+DESCRIPTION:milestone · Leaders · todo\nhttps://snthor-phd.github.io/spr
+ ingtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:t32@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280630
+DTEND;VALUE=DATE:20280701
+SUMMARY:KY28: Final report to the Caravan Committee chair
+DESCRIPTION:task · Steve · todo · estimated date\nParticipant list\, in
+ come and expense report\, travel guide and journal.\nhttps://snthor-phd.g
+ ithub.io/springtime-in-kentucky-2028/planning/tasks/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stop-bowlinggreen@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280429
+DTEND;VALUE=DATE:20280502
+SUMMARY:KY28 caravan: Bowling Green & Mammoth Cave
+DESCRIPTION:3 nights at Bowling Green KOA Holiday
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stop-louisville@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280502
+DTEND;VALUE=DATE:20280504
+SUMMARY:KY28 caravan: Louisville
+DESCRIPTION:2 nights at Louisville South KOA Holiday
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stop-frankfort@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280504
+DTEND;VALUE=DATE:20280507
+SUMMARY:KY28 caravan: Frankfort
+DESCRIPTION:3 nights at Elkhorn Creek RV Park (was Elkhorn Campground)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stop-lexington@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280507
+DTEND;VALUE=DATE:20280513
+SUMMARY:KY28 caravan: Lexington horse country
+DESCRIPTION:6 nights at Kentucky Horse Park Campground
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:stop-berea@springtime-kentucky-2028
+DTSTAMP:20261013T225529Z
+DTSTART;VALUE=DATE:20280513
+DTEND;VALUE=DATE:20280521
+SUMMARY:KY28 caravan: Berea & Renfro Valley
+DESCRIPTION:8 nights at Renfro Valley KOA Holiday
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

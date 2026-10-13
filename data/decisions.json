@@ -1,38 +1,18 @@
 [
- {
-  "q": "Dates",
-  "who": "Leaders",
-  "status": "settled",
-  "note": "Caravan runs Sat Apr 29 – Sat May 20, 2028, with a farewell Sun May 21. Kentucky Derby falls on Sat May 6, day 8 of the trip."
- },
- {
-  "q": "Which bases, and how many nights at each?",
-  "who": "Leaders",
-  "status": "open",
-  "note": ""
- },
- {
-  "q": "Derby Day plan: Churchill Downs in person, or a watch party near camp?",
-  "who": "Leaders",
-  "status": "open",
-  "note": ""
- },
- {
-  "q": "Official WBCCI caravan or an informal group trip?",
-  "who": "Leaders",
-  "status": "open",
-  "note": "Wally Byam Caravan Club International (WBCCI) caravans are registered through the club."
- },
- {
-  "q": "Group size and rig limits",
-  "who": "Leaders",
-  "status": "open",
-  "note": "Sets how many sites to hold at each campground and the longest rig every site has to fit."
- },
- {
-  "q": "Where's the farewell?",
-  "who": "Leaders",
-  "status": "open",
-  "note": ""
- }
+ {"q": "Dates", "who": "Leaders", "status": "settled",
+  "note": "Sat Apr 29 - Sat May 20, 2028 (22 nights), farewell Sun May 21. Kentucky Derby is Sat May 6, day 8."},
+ {"q": "Route and nights", "who": "Leaders", "status": "settled",
+  "note": "Bowling Green & Mammoth Cave 3 -> Louisville 2 -> Frankfort 3 -> Lexington 6 -> Berea & Renfro Valley 8. West to east, no backtracking."},
+ {"q": "Derby plan", "who": "Colleen", "status": "settled",
+  "note": "No Derby at Churchill Downs (cost). Pre-Derby race day at Churchill Downs Wed May 3; watch the Derby at Keeneland's Derby Day, as the 2012 caravan did."},
+ {"q": "Official club caravan", "who": "Leaders", "status": "settled",
+  "note": "An Airstream Club International national caravan."},
+ {"q": "Caravan name and number", "who": "Steve", "status": "open",
+  "note": "'Springtime in Kentucky' is an existing ACI caravan (N-2023-Y to N-2025-Y, other leaders). Ask the Caravan Committee chair before using the name."},
+ {"q": "Group size and rig limits", "who": "Leaders", "status": "open",
+  "note": "The 2023-25 runs capped at 26 rigs including leaders. Every campground pick is judged against that."},
+ {"q": "Campgrounds", "who": "Leaders", "status": "open",
+  "note": "First calls: Bowling Green KOA, Louisville South KOA, Elkhorn Creek RV Park, Kentucky Horse Park, Renfro Valley KOA. See Campgrounds."},
+ {"q": "Farewell venue", "who": "Leaders", "status": "open",
+  "note": "Renfro Valley KOA pavilion, Fort Boonesborough activities building (seats 150) or Boone Tavern."}
 ]

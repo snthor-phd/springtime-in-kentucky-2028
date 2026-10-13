@@ -1,0 +1,151 @@
+{
+"_help": "Coordinates by id (US Census geocoder; Photon/OpenStreetMap for named places). Regenerate with a geocoder if you add places.",
+"artisancenter": {
+"lat": 37.59632,
+"lon": -84.31199
+},
+"bernheim": {
+"lat": 37.92434,
+"lon": -85.6623
+},
+"bgkoa": {
+"lat": 36.91767,
+"lon": -86.43619
+},
+"buffalotrace": {
+"lat": 38.21574,
+"lon": -84.86905
+},
+"campnelson": {
+"lat": 37.78806,
+"lon": -84.60595
+},
+"cavecountry": {
+"lat": 37.13649,
+"lon": -85.96976
+},
+"churchilldowns": {
+"lat": 38.20566,
+"lon": -85.77061
+},
+"cumminsferry": {
+"lat": 37.87963,
+"lon": -84.81488
+},
+"dadsbluegrass": {
+"lat": 36.71665,
+"lon": -86.52416
+},
+"diamondcaverns": {
+"lat": 37.11639,
+"lon": -86.06288
+},
+"elkhorn": {
+"lat": 38.21263,
+"lon": -84.79897
+},
+"fortboonesborough": {
+"lat": 37.89962,
+"lon": -84.27004
+},
+"grandmas": {
+"lat": 37.97883,
+"lon": -85.70106
+},
+"h_baptistlex": {
+"lat": 38.0191,
+"lon": -84.51376
+},
+"h_berea": {
+"lat": 37.57362,
+"lon": -84.28737
+},
+"h_bowlinggreen": {
+"lat": 36.99638,
+"lon": -86.43002
+},
+"h_chandler": {
+"lat": 38.03283,
+"lon": -84.50672
+},
+"h_frankfort": {
+"lat": 38.15957,
+"lon": -84.9062
+},
+"h_franklin": {
+"lat": 36.7001,
+"lon": -86.57697
+},
+"h_rockcastle": {
+"lat": 37.3576,
+"lon": -84.3361
+},
+"h_south": {
+"lat": 38.06023,
+"lon": -85.69612
+},
+"h_stjoelex": {
+"lat": 38.03132,
+"lon": -84.5219
+},
+"hiddenriver": {
+"lat": 37.17935,
+"lon": -85.9057
+},
+"historycenter": {
+"lat": 38.19848,
+"lon": -84.87413
+},
+"jellystone": {
+"lat": 37.13455,
+"lon": -85.99634
+},
+"keeneland": {
+"lat": 38.04266,
+"lon": -84.60703
+},
+"khp": {
+"lat": 38.14773,
+"lon": -84.52058
+},
+"louisvillenorth": {
+"lat": 38.27913,
+"lon": -85.75462
+},
+"louisvillesouthkoa": {
+"lat": 38.00521,
+"lon": -85.67891
+},
+"mammothcave": {
+"lat": 37.18702,
+"lon": -86.10128
+},
+"musicvalley": {
+"lat": 37.3872,
+"lon": -84.33089
+},
+"ohkentucky": {
+"lat": 37.56633,
+"lon": -84.32222
+},
+"renfrokoa": {
+"lat": 37.39715,
+"lon": -84.33048
+},
+"renfrovalley": {
+"lat": 37.3872,
+"lon": -84.33089
+},
+"taylorsville": {
+"lat": 38.02977,
+"lon": -85.25072
+},
+"walnutmeadow": {
+"lat": 37.56472,
+"lon": -84.3241
+},
+"whisperinghills": {
+"lat": 38.29962,
+"lon": -84.55145
+}
+}

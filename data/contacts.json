@@ -1,0 +1,25 @@
+{
+"_help": "Hospitals near each base plus key booking contacts. 'was2012' records what the 2012 caravan book said, so changes are visible. Verified Oct 2026.",
+"hospitals": [
+ {"id": "h_bowlinggreen", "base": "bowlinggreen", "name": "The Medical Center at Bowling Green", "phone": "(270) 745-1000", "address": "250 Park St, Bowling Green, KY", "note": "Nearest full hospital to the Bowling Green KOA.", "source": "https://medcenterhealth.org/contact/"},
+ {"id": "h_franklin", "base": "bowlinggreen", "name": "The Medical Center at Franklin", "phone": "(270) 598-4800", "address": "1100 Brookhaven Rd, Franklin, KY", "was2012": "Listed in 2012 for the Franklin campground; name unchanged.", "source": "https://medcenterhealth.org/franklin/"},
+ {"id": "h_south", "base": "louisville", "name": "UofL Health - South Hospital (ER)", "phone": "(502) 955-3000", "address": "1903 W Hebron Ln, Shepherdsville, KY", "was2012": "2012: Jewish Hospital Medical - South, 1902 W. Hebron Ln. Same phone; new owner since 2019.", "source": "https://uoflhealth.org/locations/uofl-health-south-hospital-emergency-room"},
+ {"id": "h_norton", "base": "louisville", "name": "Norton Immediate Care Center - Shepherdsville", "phone": "(502) 957-6434", "address": "438 Adam Shepherd Pkwy, Ste 2, Shepherdsville, KY", "was2012": "2012 address was 115 Huston Dr #2. It moved; the phone is from a third-party listing.", "source": "https://doctor.webmd.com/practice/norton-immediate-care-center-shepherdsville-67f8c241-bde4-41f8-81f3-d670e94256e9"},
+ {"id": "h_frankfort", "base": "frankfort", "name": "Frankfort Regional Medical Center", "phone": "(502) 875-5240", "address": "299 King's Daughters Dr, Frankfort, KY", "note": "Phone from a third-party directory; confirm.", "source": "https://turquoise.health/providers/frankfort-regional"},
+ {"id": "h_stjoelex", "base": "lexington", "name": "CommonSpirit Saint Joseph Hospital - Lexington", "phone": "(859) 313-1000 (ER (859) 313-1176)", "address": "1 St. Joseph Dr, Lexington, KY", "was2012": "2012: St Joseph's Hospital. Same phone; new name.", "source": "https://www.commonspirit.org/redirects/chisaintjosephhealthorg/saint-joseph-hospital-lexington"},
+ {"id": "h_chandler", "base": "lexington", "name": "UK HealthCare Albert B. Chandler Hospital (Level I trauma)", "phone": "(859) 323-5000", "address": "800 Rose St, Lexington, KY", "was2012": "2012: UK Medical Center, (859) 257-9000. The phone changed.", "source": "https://ukhealthcare.uky.edu/hospitals/albert-b-chandler-hospital"},
+ {"id": "h_baptistlex", "base": "lexington", "name": "Baptist Health Lexington", "phone": "(859) 260-6100", "address": "1740 Nicholasville Rd, Lexington, KY", "was2012": "2012: Central Baptist Hospital. Same phone; new name.", "source": "https://www.baptisthealth.com/locations/hospitals/baptist-health-lexington"},
+ {"id": "h_berea", "base": "berea", "name": "CommonSpirit Saint Joseph Hospital - Berea", "phone": "(859) 986-3151 (ER (859) 986-6527)", "address": "305 Estill St, Berea, KY", "was2012": "2012: St Joseph's Med Center. Same phone; new name.", "source": "https://www.commonspirit.org/find-a-location/commonspirit-saint-joseph-hospital-berea-972"},
+ {"id": "h_rockcastle", "base": "berea", "name": "Rockcastle Regional Hospital", "phone": "(800) 278-2195", "address": "145 Newcomb Ave, Mount Vernon, KY", "note": "Closest to the Renfro Valley KOA.", "source": "https://www.rockcastleregional.org/"}
+],
+"booking": [
+ {"base": "frankfort", "name": "Buffalo Trace Distillery (groups of 13+)", "contact": "reservations@buffalotrace.com", "phone": "(502) 696-5926", "note": "Tours are free. Groups email; online dates open 8 weeks ahead, released Wednesdays at 10 a.m. ET. Trace Tour is the only accessible tour.", "source": "https://www.buffalotracedistillery.com/faqs/"},
+ {"base": "lexington", "name": "Kentucky Horse Park Campground, group line", "contact": "", "phone": "(859) 259-4257 or (800) 370-6416", "note": "Groups of 20+ must call.", "source": "https://kyhorsepark.com/campground/"},
+ {"base": "frankfort", "name": "Keeneland Derby Day", "contact": "keeneland.com/derby", "phone": "", "note": "2026 prices: general admission $10, Equestrian Room $40, 1936 Room $150.", "source": "https://keeneland.com/derby"},
+ {"base": "louisville", "name": "Churchill Downs tickets", "contact": "churchilldowns.com", "phone": "", "note": "Derby-week racing in 2026 ran Tue-Sat with Monday dark; Wednesday was 'Winsday'. Check the 2028 calendar.", "source": "https://kyhbpa.org/2026/02/ky-derby-week-opener-returns-to-daytime-saturday-sunday-racing-back-the-next-day/"},
+ {"base": "bowlinggreen", "name": "Mammoth Cave tours", "contact": "Recreation.gov", "phone": "(877) 444-6777", "note": "Reservations recommended; spring tour list varies.", "source": "https://nps.gov/maca/planyourvisit/explore-all-tours.htm"}
+],
+"club": [
+ {"name": "ACI Caravan Committee chair", "note": "Authorizes national caravans and selects leaders. 'Springtime in Kentucky' ran as N-2023-Y, N-2024-Y and N-2025-Y under other leaders; talk to the chair first.", "source": "https://airstreamclub.org/caravan-information"}
+]
+}

@@ -1,0 +1,24 @@
+{
+"_help": "Per-rig (two people) planning numbers. amount null = still to find. 'per': rig | person | night (per rig). Sources noted; 'I' means our estimate.",
+"benchmarks": [
+ {"label": "2023 Springtime in Kentucky kitty (two people)", "amount": 3250, "source": "https://airstreamclub.org/springtime-kentucky-caravan-2023"},
+ {"label": "2024 kitty (two people)", "amount": 3250, "source": "https://airstreamclub.org/springtime-kentucky-caravan-2024"},
+ {"label": "2025 kitty (two people)", "amount": 3750, "source": "https://airstreamclub.org/2025-springtime-kentucky-caravan"}
+],
+"lines": [
+ {"group": "Camping", "label": "Bowling Green KOA, 3 nights", "per": "night", "qty": 3, "amount": null, "note": "Get a group quote."},
+ {"group": "Camping", "label": "Louisville South KOA, 2 nights (Derby week)", "per": "night", "qty": 2, "amount": 80, "note": "About $80/night reported Mar 2026; Derby rate by phone.", "source": "https://koa.com/campgrounds/louisville-south/reserve/?code=HD"},
+ {"group": "Camping", "label": "Elkhorn Creek RV Park, 3 nights", "per": "night", "qty": 3, "amount": null, "note": ""},
+ {"group": "Camping", "label": "Kentucky Horse Park, 6 nights", "per": "night", "qty": 6, "amount": null, "note": "Event weekends ran $50/night in 2026; standard rate to confirm."},
+ {"group": "Camping", "label": "Renfro Valley KOA, 8 nights", "per": "night", "qty": 8, "amount": null, "note": ""},
+ {"group": "Activities", "label": "Mammoth Cave tours (two)", "per": "person", "qty": 2, "amount": null, "note": ""},
+ {"group": "Activities", "label": "Churchill Downs race day admission", "per": "person", "qty": 2, "amount": null, "note": ""},
+ {"group": "Activities", "label": "Buffalo Trace Trace Tour", "per": "person", "qty": 2, "amount": 0, "note": "Free.", "source": "https://www.buffalotracedistillery.com/faqs/"},
+ {"group": "Activities", "label": "Keeneland Derby Day, general admission", "per": "person", "qty": 2, "amount": 10, "note": "2026 price; Equestrian Room was $40.", "source": "https://keeneland.com/derby"},
+ {"group": "Activities", "label": "Horse-farm tour", "per": "person", "qty": 2, "amount": 20, "note": "About $20 in 2020; check.", "source": "https://www.champsofthetrack.com/post/horse-country-re-opens-for-visitors"},
+ {"group": "Activities", "label": "Renfro Valley show", "per": "person", "qty": 2, "amount": null, "note": ""},
+ {"group": "Meals", "label": "Group meals (welcome, cookouts, farewell banquet)", "per": "person", "qty": 2, "amount": null, "note": ""},
+ {"group": "Club fees", "label": "ACI application fee", "per": "rig", "qty": 1, "amount": 25, "note": "Non-refundable, per application (2021 handbook).", "source": "https://airstreamclub.org/sites/default/files/2021-09/Caravan%20Handbook%2006_23_2021_3.pdf"},
+ {"group": "Club fees", "label": "National Caravan Fund fee (3% of kitty, max $100/rig)", "per": "rig", "qty": 1, "amount": 100, "note": "Called temporary in 2021; confirm it still applies.", "source": "https://airstreamclub.org/sites/default/files/2021-09/Caravan%20Handbook%2006_23_2021_3.pdf"}
+]
+}

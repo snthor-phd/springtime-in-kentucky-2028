@@ -1,0 +1,26 @@
+{
+"_help": "status: idea | shortlist | scheduled | dropped. did2012: true if the 2012 caravan did it. pin: an id in places.json to show on the map.",
+"ideas": [
+ {"base": "bowlinggreen", "title": "Mammoth Cave tours", "status": "shortlist", "pin": "mammothcave", "note": "Pick two: Historic Tour plus Domes and Dripstones, or the lantern-lit Violet City tour. Reserve on Recreation.gov.", "source": "https://nps.gov/maca/planyourvisit/explore-all-tours.htm"},
+ {"base": "bowlinggreen", "title": "Hidden River Cave and American Cave Museum", "status": "idea", "pin": "hiddenriver", "note": "One ticket covers both, in Horse Cave. Check current hours and prices.", "source": "https://www.kentuckyliving.com/news/horse-cave-and-cave-country-attractions-near-mammoth-cave"},
+ {"base": "bowlinggreen", "title": "National Corvette Museum", "status": "idea", "did2012": true, "note": "2012 did the museum and the assembly-plant tour.", "source": ""},
+ {"base": "bowlinggreen", "title": "Lost River Cave boat tour", "status": "idea", "did2012": true, "note": "", "source": ""},
+ {"base": "louisville", "title": "Pre-Derby race day at Churchill Downs", "status": "scheduled", "pin": "churchilldowns", "note": "Wed May 3, 2028. In 2026 the Wednesday of Derby week was 'Winsday'. 2012 did the same with a Derby Museum tour.", "source": "https://kyhbpa.org/2026/02/ky-derby-week-opener-returns-to-daytime-saturday-sunday-racing-back-the-next-day/"},
+ {"base": "louisville", "title": "Great Steamboat Race", "status": "idea", "note": "Ran the Wednesday before the Derby in 2026; that would be the same day as our race day. Date inferred.", "source": "https://www.gotolouisville.com/media/news-stories/kentucky-derby-festival-unveils-2026-event-lineup-celebrates-tradition"},
+ {"base": "louisville", "title": "Bernheim Forest", "status": "shortlist", "pin": "bernheim", "note": "Giant troll sculptures and a treetop canopy walk, about 15 minutes from the Shepherdsville campgrounds.", "source": "https://en.wikipedia.org/wiki/Bernheim_Arboretum_and_Research_Forest"},
+ {"base": "louisville", "title": "Louisville Slugger Museum and lunch cruise", "status": "idea", "did2012": true, "note": "", "source": ""},
+ {"base": "frankfort", "title": "Buffalo Trace Distillery, Trace Tour", "status": "scheduled", "pin": "buffalotrace", "note": "Free, 75 minutes, the only accessible tour. Email for ~50 people in four groups of 12-13. Trucks only; carpool. 2012 toured it too.", "source": "https://www.buffalotracedistillery.com/faqs/"},
+ {"base": "frankfort", "title": "Derby Day at Keeneland", "status": "scheduled", "pin": "keeneland", "note": "Sat May 6, 2028, about 30 minutes from Frankfort. Colleen's call for cost; 2012 did the same.", "source": "https://keeneland.com/derby"},
+ {"base": "frankfort", "title": "Kentucky History Center and Old State Capitol", "status": "idea", "pin": "historycenter", "note": "One ticket covers both plus the Military History Museum. The new Capitol's interior is closed for renovation until about Jan 2029.", "source": "https://visitfrankfort.com/between-bourbon-tours/"},
+ {"base": "frankfort", "title": "Castle & Key Distillery", "status": "idea", "note": "Restored 'castle' distillery; book ahead.", "source": "https://visitfrankfort.com/between-bourbon-tours/"},
+ {"base": "frankfort", "title": "Rebecca Ruth bourbon-ball candy tour", "status": "idea", "did2012": true, "note": "", "source": ""},
+ {"base": "lexington", "title": "Working horse-farm tours", "status": "shortlist", "note": "Booked through Horse Country, Inc. (e.g., Claiborne, Lane's End). Group tours ran about $20 in 2020.", "source": "https://www.champsofthetrack.com/post/horse-country-re-opens-for-visitors"},
+ {"base": "lexington", "title": "Kentucky Horse Park museum and Hall of Champions", "status": "shortlist", "note": "Right where we camp.", "source": ""},
+ {"base": "lexington", "title": "Camp Nelson National Monument", "status": "idea", "pin": "campnelson", "note": "Civil War camp where many Black Union soldiers enlisted. Check May hours (daily hours began Memorial Day in 2024).", "source": "https://www.nps.gov/cane/learn/news/camp-nelson-national-monument-announces-new-summer-hours-and-may-calendar.htm"},
+ {"base": "lexington", "title": "Shaker Village of Pleasant Hill", "status": "idea", "did2012": true, "note": "", "source": ""},
+ {"base": "lexington", "title": "Old Friends retired thoroughbred farm", "status": "idea", "did2012": true, "note": "", "source": ""},
+ {"base": "berea", "title": "Kentucky Artisan Center and Berea galleries", "status": "shortlist", "pin": "artisancenter", "did2012": true, "note": "", "source": ""},
+ {"base": "berea", "title": "Renfro Valley shows", "status": "shortlist", "pin": "renfrovalley", "did2012": true, "note": "The center still books concerts (2026 lineup online); check the week of May 13-21, 2028.", "source": "https://renfrovalley.com/?p=8445"},
+ {"base": "berea", "title": "Farewell banquet", "status": "idea", "note": "Options: Renfro Valley KOA pavilion, Fort Boonesborough activities building (seats 150), or Boone Tavern as in 2012.", "source": ""}
+]
+}

@@ -1,10 +1,22 @@
 {
-"home": {"name": "Home", "place": "Beavercreek Twp, OH", "lat": 39.71, "lon": -84.06, "kind": "home",
- "blurb": "Start and finish.", "activities": [], "campgrounds": []},
-
-"_example": {"name": "Stop name", "place": "Town, KY", "lat": 38.0, "lon": -84.5, "kind": "stop",
- "blurb": "One or two lines on why we're here.",
- "activities": ["Thing to do"],
- "campgrounds": [{"name": "Campground", "lat": 38.0, "lon": -84.5, "type": "State park / Private",
-   "notes": "", "fit": "", "opens": ""}]}
+"bowlinggreen": {"name": "Bowling Green & Mammoth Cave", "place": "Bowling Green, KY", "tz": "Central",
+ "campground": "bgkoa",
+ "blurb": "Rendezvous and cave country. One base covers Mammoth Cave National Park and Bowling Green.",
+ "highlights": ["Mammoth Cave tours (book on Recreation.gov)", "Hidden River Cave and the American Cave Museum", "Welcome dinner and first drivers' meeting"]},
+"louisville": {"name": "Louisville", "place": "Shepherdsville, KY", "tz": "Eastern",
+ "campground": "louisvillesouthkoa",
+ "blurb": "Derby week in Louisville: a day at the races at Churchill Downs before the crowds of Oaks and Derby.",
+ "highlights": ["Pre-Derby race day at Churchill Downs, Wed May 3", "Kentucky Derby Museum", "Bernheim Forest, 15 minutes from camp"]},
+"frankfort": {"name": "Frankfort", "place": "Frankfort, KY", "tz": "Eastern",
+ "campground": "elkhorn",
+ "blurb": "The capital and bourbon. Buffalo Trace up the road, and Derby Day at Keeneland about 30 minutes away.",
+ "highlights": ["Buffalo Trace Distillery, Trace Tour", "Kentucky History Center and Old State Capitol", "Derby Day at Keeneland, Sat May 6"]},
+"lexington": {"name": "Lexington horse country", "place": "Kentucky Horse Park, Lexington, KY", "tz": "Eastern",
+ "campground": "khp",
+ "blurb": "Six nights among the horse farms, camped at the Kentucky Horse Park.",
+ "highlights": ["Kentucky Horse Park museum and Hall of Champions", "Working horse-farm tours", "Camp Nelson National Monument"]},
+"berea": {"name": "Berea & Renfro Valley", "place": "Mount Vernon / Berea, KY", "tz": "Eastern",
+ "campground": "renfrokoa",
+ "blurb": "Folk arts, mountain music and the farewell.",
+ "highlights": ["Kentucky Artisan Center and Berea's craft galleries", "Renfro Valley shows (check the 2028 schedule)", "Farewell, Sun May 21"]}
 }
