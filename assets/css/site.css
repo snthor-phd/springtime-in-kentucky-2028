@@ -1,0 +1,103 @@
+/* Springtime in Kentucky 2028 — bluegrass green, limestone, plank-fence grey, Derby rose (one emphasis colour) */
+:root {
+  --ink: #1F2A22;
+  --grass: #2F5D46;
+  --limestone: #F4F2EC;
+  --fence: #DDD8CB;
+  --slate: #6B7066;
+  --rose: #B0233E;
+  --paper: #FFFFFF;
+  --serif: "Libre Caslon Text", Georgia, "Times New Roman", serif;
+  --sans: "Figtree", "Segoe UI", system-ui, sans-serif;
+}
+:root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+*, *::before, *::after { box-sizing: inherit; }
+body { margin: 0; background: var(--limestone); color: var(--ink); font: 400 1.0625rem/1.55 var(--sans); }
+a { color: var(--grass); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--rose); outline-offset: 2px; }
+
+.top { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.5rem; padding: 1rem clamp(1rem, 4vw, 2.5rem);
+  background: var(--grass); color: #fff; }
+.brand { font: 700 1.2rem/1.2 var(--serif); color: #fff; text-decoration: none; }
+.brand span { font-weight: 400; opacity: .75; }
+.top nav { display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; }
+.top nav a { color: #E8EFEA; text-decoration: none; font-weight: 500; }
+.top nav a:hover { color: #fff; text-decoration: underline; }
+
+main { max-width: 68rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2.5rem) 3rem; }
+h1, h2, h3 { font-family: var(--serif); line-height: 1.25; margin: 0 0 .5rem; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 700; }
+h2 { font-size: 1.35rem; font-weight: 700; }
+h3 { font-size: 1.12rem; font-weight: 700; }
+.lede { font-size: 1.15rem; max-width: 42rem; color: #38443B; }
+.caption { font-size: .92rem; color: var(--slate); max-width: 46rem; }
+.empty { background: var(--paper); padding: 1rem 1.2rem; border-left: 4px solid var(--fence); max-width: 46rem; color: #4A554C; }
+
+/* hero */
+.hero { padding: 1.5rem 0 1rem; max-width: 50rem; }
+.hero h1 { font-size: clamp(1.9rem, 4.4vw, 3rem); letter-spacing: -.01em; }
+.hero .dates { font: 400 1.02rem var(--serif); color: var(--rose); margin: 0 0 .5rem; }
+.countdown { font-weight: 500; color: var(--grass); }
+
+/* signature calendar strip */
+.compare { margin-top: 1.5rem; background: var(--paper); border-radius: 6px; padding: 1.4rem clamp(1rem, 3vw, 1.8rem); }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.strip { width: 100%; min-width: 760px; height: auto; display: block; margin: .8rem 0 .2rem; font-family: var(--sans); }
+.st-wknd { fill: #F1EEE6; }
+.st-date { font-size: 11px; fill: var(--slate); }
+.st-stop { fill: var(--grass); }
+.st-lab { font-size: 11.5px; font-weight: 500; fill: #fff; }
+.st-open { fill: none; stroke: #B9B4A6; stroke-width: 1.2; stroke-dasharray: 5 4; }
+.st-openlab { font-size: 12px; fill: var(--slate); font-style: italic; }
+.st-farewell { fill: #7A8A7E; }
+.st-derby-line { stroke: var(--rose); stroke-width: 2; }
+.st-derby-lab { font-size: 12.5px; font-weight: 700; fill: var(--rose); }
+.st-fixed-line { stroke: #7A8A7E; stroke-width: 1; }
+.st-fixed-lab { font-size: 12px; fill: var(--slate); }
+
+table { border-collapse: collapse; width: 100%; }
+.facts { margin-top: 1.2rem; font-size: .98rem; max-width: 40rem; }
+.facts th, .facts td { text-align: left; vertical-align: top; padding: .5rem .7rem; border-top: 1px solid var(--fence); }
+.facts tbody th { color: var(--slate); font-weight: 500; width: 11rem; }
+
+.pages { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.pages a { display: block; padding: 1rem 1.1rem; border-left: 4px solid var(--grass); background: var(--paper); text-decoration: none; color: var(--ink); }
+.pages a:hover { border-left-color: var(--rose); }
+.pages p { margin: 0; color: #4A554C; }
+
+/* itinerary */
+.stops { list-style: none; padding: 0; margin: 0; }
+.stop { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1.2rem; padding: 1.1rem 0; border-top: 1px solid var(--fence); }
+.stop .when { display: flex; flex-direction: column; gap: .1rem; }
+.stop .when .n { font: 700 1.6rem/1 var(--serif); color: var(--grass); }
+.stop .when span:last-child { color: var(--slate); font-size: .92rem; }
+.stop h3 small { font: 400 .95rem var(--sans); color: var(--slate); margin-left: .35rem; }
+.stop .drive { margin: .1rem 0 .5rem; color: var(--slate); font-size: .95rem; }
+.stop .fixedev { margin: .1rem 0 .4rem; color: var(--rose); font-weight: 700; }
+.stop ul { margin: .3rem 0 .5rem; padding-left: 1.2rem; }
+.stop .camp { margin: 0; font-size: .95rem; }
+.stop.k-open .when .n, .stop.k-farewell .when .n { color: var(--slate); }
+@media (max-width: 560px) { .stop { grid-template-columns: 1fr; gap: .3rem; } .stop .when { flex-direction: row; align-items: baseline; gap: .6rem; } }
+
+/* map */
+#map { height: min(70vh, 640px); border-radius: 6px; background: var(--fence); }
+.downloads a { margin-right: .8rem; font-weight: 500; }
+
+/* campgrounds */
+.camps { background: var(--paper); font-size: .95rem; min-width: 760px; }
+.camps th, .camps td { text-align: left; vertical-align: top; padding: .55rem .7rem; }
+.camps thead th { font-family: var(--serif); border-bottom: 2px solid var(--grass); }
+.camps tr.grp th, .camps tr.grp td { border-top: 1px solid var(--fence); }
+.camps tbody th small { display: block; font-weight: 400; color: var(--slate); }
+.camps .todo { color: var(--slate); font-style: italic; }
+
+/* decisions */
+.decisions { list-style: none; padding: 0; max-width: 46rem; }
+.decisions li { padding: .9rem 1rem; border-left: 4px solid var(--rose); margin-bottom: .8rem; background: var(--paper); }
+.decisions li.settled { border-left-color: var(--grass); }
+.decisions .who { margin: 0 0 .3rem; color: var(--slate); font-size: .92rem; }
+.decisions p { margin: .2rem 0; }
+
+footer { max-width: 68rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2.5rem) 2.5rem; font-size: .88rem; color: var(--slate); }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

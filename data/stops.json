@@ -1,0 +1,10 @@
+{
+"home": {"name": "Home", "place": "Beavercreek Twp, OH", "lat": 39.71, "lon": -84.06, "kind": "home",
+ "blurb": "Start and finish.", "activities": [], "campgrounds": []},
+
+"_example": {"name": "Stop name", "place": "Town, KY", "lat": 38.0, "lon": -84.5, "kind": "stop",
+ "blurb": "One or two lines on why we're here.",
+ "activities": ["Thing to do"],
+ "campgrounds": [{"name": "Campground", "lat": 38.0, "lon": -84.5, "type": "State park / Private",
+   "notes": "", "fit": "", "opens": ""}]}
+}

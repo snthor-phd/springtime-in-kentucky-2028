@@ -1,0 +1,4 @@
+{
+"_help": "Road legs between stops, keyed 'from-to' (e.g. 'home-lexington'). Each leg: {\"mi\": miles, \"car_h\": car hours, \"geom\": [[lat, lon], ...]}. Missing legs show as 'TBD' and draw as straight dashed lines on the map.",
+"legs": {}
+}
